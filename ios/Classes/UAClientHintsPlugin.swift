@@ -25,7 +25,7 @@ public class UAClientHintsPlugin: NSObject, FlutterPlugin {
 				"device": device(), // e.g.. iPhone13,4
 
         // PackageData
-        "appName": Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName"), // e.g.. Sample App
+        "appName": Bundle.main.object(forInfoDictionaryKey: "CFBundleName"), // e.g.. Sample App
         "appVersion": Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString"), // e.g.. 1.0.0
         "packageName": Bundle.main.bundleIdentifier, // e.g.. jp.wasabeef.ua
         "buildNumber": Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion"), // e.g.. 1
